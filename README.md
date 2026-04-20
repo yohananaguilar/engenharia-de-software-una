@@ -1,5 +1,14 @@
 # Engenharia de Software | Centro Universitário UNA
 
+[![Status](https://img.shields.io/badge/status-em%20evolucao-1f6feb)](README.md)
+[![Perfil](https://img.shields.io/badge/perfil-portfolio%20academico-0a7ea4)](README.md)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](README.md)
+[![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?logo=cplusplus&logoColor=white)](README.md)
+[![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white)](README.md)
+[![ESP32](https://img.shields.io/badge/ESP32-333333)](README.md)
+[![FreeRTOS](https://img.shields.io/badge/FreeRTOS-3A75C4)](README.md)
+[![Markdown](https://img.shields.io/badge/Markdown-000000?logo=markdown&logoColor=white)](README.md)
+
 Repositório acadêmico centralizado para organização, versionamento e documentação de materiais, atividades e projetos da graduação em Engenharia de Software.
 
 Este espaço funciona como registro histórico e portfólio técnico da evolução ao longo dos semestres, com foco prático em desenvolvimento de software, fundamentos de sistemas e arquitetura computacional.
