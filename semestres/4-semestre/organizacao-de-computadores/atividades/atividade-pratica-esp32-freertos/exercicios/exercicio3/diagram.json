@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "author": "GitHub Copilot",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -9.6, "left": -23.96, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -147.6,
+      "left": 99.8,
+      "attrs": { "color": "red", "label": "LED1" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": -118.8,
+      "left": 138.2,
+      "attrs": { "color": "blue", "label": "LED2" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": -90,
+      "left": 167,
+      "attrs": { "color": "green", "label": "LED3" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 179,
+      "left": 163.2,
+      "attrs": { "label": "BOTAO1", "key": "Q", "bounce": "0" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn2",
+      "top": 179,
+      "left": 259.2,
+      "attrs": { "label": "BOTAO2", "key": "W", "bounce": "0" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:2", "led1:A", "green", [] ],
+    [ "led1:C", "esp:GND.1", "black", [ "v67.2", "h-162.8", "v182.4" ] ],
+    [ "esp:4", "led2:A", "green", [] ],
+    [ "led2:C", "esp:GND.1", "black", [ "v48", "h-191.6", "v172.8" ] ],
+    [ "esp:5", "led3:A", "green", [] ],
+    [ "led3:C", "esp:GND.1", "black", [ "v28.8", "h-220.4", "v163.2" ] ],
+    [ "esp:15", "btn1:1.l", "green", [] ],
+    [ "esp:GND.1", "btn1:2.l", "black", [ "h-13.41", "v77.2", "h192" ] ],
+    [ "esp:16", "btn2:1.l", "green", [] ],
+    [ "esp:GND.1", "btn2:2.l", "black", [ "h-23.01", "v96.4", "h288" ] ]
+  ],
+  "serialMonitor": { "display": "always", "newline": "lf" },
+  "dependencies": {}
+}

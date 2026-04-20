@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "author": "GitHub Copilot",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -10, "left": -20, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -80.4,
+      "left": 99.8,
+      "attrs": { "color": "red", "label": "LED1" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": -70.8,
+      "left": 128.6,
+      "attrs": { "color": "blue", "label": "LED2" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": -61.2,
+      "left": 157.4,
+      "attrs": { "color": "green", "label": "LED3" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 188.6,
+      "left": 115.2,
+      "attrs": { "label": "BOTAO1", "key": "Q", "bounce": "0" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn2",
+      "top": 188.6,
+      "left": 201.6,
+      "attrs": { "label": "BOTAO2", "key": "W", "bounce": "0" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn3",
+      "top": 188.6,
+      "left": 288,
+      "attrs": { "label": "BOTAO3", "key": "E", "bounce": "0" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:2", "led1:A", "green", [] ],
+    [ "led1:C", "esp:GND.1", "black", [ "h-162.8", "v182" ] ],
+    [ "esp:4", "led2:A", "green", [] ],
+    [ "led2:C", "esp:GND.1", "black", [ "h-182", "v172.4" ] ],
+    [ "esp:5", "led3:A", "green", [] ],
+    [ "led3:C", "esp:GND.1", "black", [ "h-201.2", "v162.8" ] ],
+    [ "esp:15", "btn1:1.l", "green", [] ],
+    [ "esp:GND.1", "btn1:2.l", "black", [ "h-13.41", "v96.4", "h144" ] ],
+    [ "esp:16", "btn2:1.l", "green", [] ],
+    [ "esp:GND.1", "btn2:2.l", "black", [ "h-23.01", "v106", "h240" ] ],
+    [ "esp:17", "btn3:1.l", "green", [] ],
+    [ "esp:GND.1", "btn3:2.l", "black", [ "h-32.61", "v115.6", "h336" ] ]
+  ],
+  "serialMonitor": { "display": "always", "newline": "lf" },
+  "dependencies": {}
+}
