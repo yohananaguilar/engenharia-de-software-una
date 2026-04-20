@@ -1,76 +1,119 @@
-# Engenharia de Software UNA
+# Engenharia de Software | Centro Universitário UNA
 
-Repositório acadêmico para organizar e versionar materiais do curso de Engenharia de Software na UNA, com foco em atividades, projetos e resumos separados por semestre e disciplina.
+<p align="left">
+  <a href="README.md">
+    <img alt="Status" src="https://img.shields.io/badge/Status-Em%20Evolucao-1f6feb?style=for-the-badge" />
+  </a>
+  <a href="README.md">
+    <img alt="Perfil" src="https://img.shields.io/badge/Perfil-Portfolio%20Academico-0a7ea4?style=for-the-badge" />
+  </a>
+</p>
 
-## Sobre
+<p align="left">
+  <a href="https://www.python.org/">
+    <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  </a>
+  <a href="https://isocpp.org/">
+    <img alt="C/C++" src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  </a>
+  <a href="https://www.arduino.cc/">
+    <img alt="Arduino" src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
+  </a>
+  <a href="https://www.espressif.com/en/products/socs/esp32">
+    <img alt="ESP32" src="https://img.shields.io/badge/ESP32-333333?style=for-the-badge" />
+  </a>
+  <a href="https://www.freertos.org/">
+    <img alt="FreeRTOS" src="https://img.shields.io/badge/FreeRTOS-3A75C4?style=for-the-badge" />
+  </a>
+  <a href="https://www.markdownguide.org/">
+    <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
+  </a>
+</p>
 
-Este repositório reúne a trilha de estudos da graduação e funciona como histórico técnico da evolução ao longo dos semestres.
+Repositório acadêmico centralizado para organização, versionamento e documentação de materiais, atividades e projetos da graduação em Engenharia de Software.
 
-Objetivos principais:
+Este espaço funciona como registro histórico e portfólio técnico da evolução ao longo dos semestres, com foco prático em desenvolvimento de software, fundamentos de sistemas e arquitetura computacional.
 
-- Centralizar entregas e materiais de apoio em um único lugar.
-- Manter organização consistente por semestre e UC.
-- Facilitar revisões para provas, trabalhos e projetos futuros.
-- Registrar evolução prática em programação, sistemas e engenharia de software.
+## Objetivos do repositório
 
-## Estrutura geral
+- Centralizar entregas, códigos e materiais de apoio em um único local.
+- Padronizar a organização por semestre e unidade curricular.
+- Facilitar rastreabilidade de estudos, revisões e evolução técnica.
+- Construir um portfólio acadêmico consistente para uso profissional.
+
+## Estrutura geral e navegação
+
+A arquitetura do repositório é organizada de forma cronológica por semestre. Em cada unidade curricular, a convenção padrão separa o conteúdo em atividades, projetos e resumos.
 
 ```text
 semestres/
-	1-semestre/
-	2-semestre/
-	3-semestre/
-	4-semestre/
+  1-semestre/
+  2-semestre/
+  3-semestre/
+  4-semestre/
 ```
 
-Dentro de cada disciplina, a convenção é:
+Convenção por disciplina:
 
 - atividades/
 - projetos/
 - resumos/
 
-## Navegação rápida
-
-### Semestres
+## Semestres
 
 - [1º semestre](semestres/1-semestre/README.md)
 - [2º semestre](semestres/2-semestre/README.md)
 - [3º semestre](semestres/3-semestre/README.md)
 - [4º semestre](semestres/4-semestre/README.md)
 
-### UCs atuais em destaque (4º semestre)
+## Unidades curriculares em destaque (4º semestre)
 
-- [Organização de Computadores](semestres/4-semestre/organizacao-de-computadores/README.md)
-- [Sistemas Operacionais](semestres/4-semestre/sistemas-operacionais/README.md)
+- [Sistemas Operacionais](semestres/4-semestre/sistemas-operacionais/README.md): processos, organização de memória, estruturas de atividade e validação de entregas.
+- [Organização de Computadores](semestres/4-semestre/organizacao-de-computadores/README.md): arquitetura de hardware, lógica digital e simulações.
 
-### Projeto em destaque
+## Projeto em destaque
 
 - [Atividade Prática ESP32 com FreeRTOS](semestres/4-semestre/organizacao-de-computadores/atividades/atividade-pratica-esp32-freertos/README.md)
 
-## Conteúdo por semestre
+Aplicação prática de concorrência, controle por eventos e multitarefa em sistemas embarcados com ESP32, Arduino e Wokwi.
 
-- 1º semestre
-	- Fenômenos Elétricos, Magnéticos e Oscilatórios
-	- Modelagem e Simulação de Sistemas Elétricos e Magnéticos
-	- Vida e Carreira
-- 2º semestre
-	- Análise de Fenômenos Físicos da Natureza
-	- Medição em Ciências e Representação Gráfica
-- 3º semestre
-	- Análise de Dados e Big Data
-	- Inteligência Artificial
-- 4º semestre
-	- Organização de Computadores
-	- Sistemas Operacionais
+## Conteúdo acadêmico por semestre
 
-## Convenções deste repositório
+### 1º semestre
 
-- Nomes de pastas em minúsculas e com hífen.
-- Uma pasta por disciplina dentro de cada semestre.
-- Uma pasta por entrega quando houver múltiplos arquivos relacionados.
-- Cada disciplina deve ter README próprio com contexto e links internos.
+- Fenômenos Elétricos, Magnéticos e Oscilatórios
+- Modelagem e Simulação de Sistemas Elétricos e Magnéticos
+- Vida e Carreira
 
-## Política de PDFs
+### 2º semestre
+
+- Análise de Fenômenos Físicos da Natureza
+- Medição em Ciências e Representação Gráfica
+
+### 3º semestre
+
+- Análise de Dados e Big Data
+- Inteligência Artificial
+
+### 4º semestre
+
+- Organização de Computadores
+- Sistemas Operacionais
+
+## Tecnologias e ferramentas aplicadas
+
+- Linguagens: Python, C/C++ (Arduino)
+- Sistemas e hardware: ESP32, FreeRTOS, Wokwi
+- Documentação e organização: Markdown, PDF
+
+## Normas e convenções do repositório
+
+1. Nomenclatura de pastas e arquivos em letras minúsculas e separadas por hífen.
+2. Cada disciplina mantém README próprio com contexto e links internos.
+3. Cada entrega deve ficar isolada em pasta específica quando houver múltiplos arquivos.
+4. Estrutura interna recomendada de atividades: enunciado e entrega.
+
+## Política de arquivos PDF
 
 Este repositório aceita PDFs de enunciado e entrega final.
 
@@ -79,50 +122,39 @@ Padrão recomendado por atividade:
 - enunciado/arquivo-enunciado.pdf
 - entrega/arquivo-entrega-final.pdf
 
-Boas práticas:
+Boas práticas adotadas:
 
-- Evitar armazenar revisões intermediárias de PDFs.
-- Priorizar apenas versão final para reduzir crescimento do histórico.
-- Se houver grande volume de binários, considerar Git LFS no futuro.
+- Manter somente versões finais, evitando revisões intermediárias redundantes.
+- Preservar nomenclatura padronizada para facilitar busca e auditoria.
+- Considerar Git LFS futuramente apenas se o volume de binários crescer de forma relevante.
 
-Referência prática:
+Validação automatizada de estrutura de PDFs:
 
-- [Validador de PDFs em Sistemas Operacionais](semestres/4-semestre/sistemas-operacionais/atividades/gerar_pdfs_entrega.py)
+- [Script de validação](semestres/4-semestre/sistemas-operacionais/atividades/gerar_pdfs_entrega.py)
 
-## Tecnologias e formatos utilizados
+## Como utilizar este repositório
 
-- Python
-- Arduino/ESP32
-- FreeRTOS
-- Wokwi
-- Markdown
-- PDF
-
-## Como utilizar
-
-1. Escolha o semestre.
-2. Acesse a disciplina desejada.
+1. Acesse o semestre desejado.
+2. Escolha a unidade curricular.
 3. Navegue entre atividades, projetos e resumos.
-4. Leia o README local para contexto específico de cada material.
+4. Consulte o README local para detalhes de cada entrega.
 
-## Organização recomendada para novas entregas
-
-Modelo sugerido:
+## Modelo recomendado para novas entregas
 
 ```text
 disciplina/
-	atividades/
-		atividade-n/
-			enunciado/
-			entrega/
-			README.md
+  atividades/
+    atividade-n/
+      enunciado/
+      entrega/
+      README.md
 ```
 
-## Roadmap acadêmico do repositório
+## Evolução esperada
 
-- Manter atualização contínua a cada nova atividade e projeto.
-- Padronizar READMEs de disciplinas e entregas.
-- Expandir documentação técnica dos projetos mais relevantes.
+- Atualização contínua com novas atividades e projetos.
+- Expansão de documentação técnica nas entregas mais relevantes.
+- Consolidação gradual como portfólio acadêmico e profissional.
 
 ## Status
 
@@ -130,8 +162,10 @@ Repositório em evolução contínua durante a graduação.
 
 ## Autor
 
+Yohanan Aguilar
+
 Estudante de Engenharia de Software na UNA.
 
 ## Licença
 
-Sem licença definida no momento.
+Sem licença definida até o momento.
