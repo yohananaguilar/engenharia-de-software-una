@@ -1,34 +1,13 @@
 # Engenharia de Software | Centro Universitário UNA
 
-<p align="left">
-  <a href="README.md">
-    <img alt="Status" src="https://img.shields.io/badge/Status-Em%20Evolucao-1f6feb?style=for-the-badge" />
-  </a>
-  <a href="README.md">
-    <img alt="Perfil" src="https://img.shields.io/badge/Perfil-Portfolio%20Academico-0a7ea4?style=for-the-badge" />
-  </a>
-</p>
-
-<p align="left">
-  <a href="https://www.python.org/">
-    <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  </a>
-  <a href="https://isocpp.org/">
-    <img alt="C/C++" src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  </a>
-  <a href="https://www.arduino.cc/">
-    <img alt="Arduino" src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
-  </a>
-  <a href="https://www.espressif.com/en/products/socs/esp32">
-    <img alt="ESP32" src="https://img.shields.io/badge/ESP32-333333?style=for-the-badge" />
-  </a>
-  <a href="https://www.freertos.org/">
-    <img alt="FreeRTOS" src="https://img.shields.io/badge/FreeRTOS-3A75C4?style=for-the-badge" />
-  </a>
-  <a href="https://www.markdownguide.org/">
-    <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
-  </a>
-</p>
+[![Status](https://img.shields.io/badge/Status-Em%20Evolucao-1f6feb?style=for-the-badge)](README.md)
+[![Perfil](https://img.shields.io/badge/Perfil-Portfólio%20Acadêmico-0a7ea4?style=for-the-badge)](README.md)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://isocpp.org/)
+[![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
+[![ESP32](https://img.shields.io/badge/ESP32-333333?style=for-the-badge)](https://www.espressif.com/en/products/socs/esp32)
+[![FreeRTOS](https://img.shields.io/badge/FreeRTOS-3A75C4?style=for-the-badge)](https://www.freertos.org/)
+[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
 
 Repositório acadêmico centralizado para organização, versionamento e documentação de materiais, atividades e projetos da graduação em Engenharia de Software.
 
